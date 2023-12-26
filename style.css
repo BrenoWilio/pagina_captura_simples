@@ -1,0 +1,110 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html{
+    background-color: black;
+}
+
+.header{
+    height: 50px;
+    width: 100%;
+    background: fixed #31AED2;
+    position: relative;
+    text-align: center;
+}
+
+#textheader{
+    color: rgb(255, 255, 255);
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.imgfundo{
+    background-image: url("./images/people.jpg");
+    height:500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.form{
+    width: 300px;
+    height: 480x;
+    padding: 15px 15px 20px 15px;
+    float: right;
+    margin: 20px 20px 0 0;
+    background-color: rgb(255, 255, 255, 75%);
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+h2{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.form2{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.input, .selection{
+    width: 230px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.selection{
+    width: 250px;
+}
+
+.bot{
+    width: 250px;
+    height: 40px;
+    border: none;
+    background-color: #31AED2;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 5px
+}
+
+.autor{
+    height: 300px;
+    width: 100%;
+    background-color: #202122;
+    padding: 50px;
+}
+
+.imgautor{
+    float: left;
+    margin-right: 0px;
+    padding-right: 0;
+    padding-top: 25px;
+    line-height: 300px;
+}
+
+.sobreautor{
+    float: right;
+    width: 400px;
+    padding: 0;
+    margin: 0;
+}
+
+#titleautor{
+    font-size:20px
+}
+
+.content{
+    margin: auto;
+    width: 620px;
+    height: 300px;
+    color: white;
+}
